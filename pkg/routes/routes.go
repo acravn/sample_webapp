@@ -4,8 +4,8 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"net/http"
-	"test_webapp/pkg/config"
-	"test_webapp/pkg/handlers"
+	"sample_webapp/pkg/config"
+	"sample_webapp/pkg/handlers"
 )
 
 func Routes(app *config.AppConfig) http.Handler {

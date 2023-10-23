@@ -1,12 +1,14 @@
 package server
 
 import (
+	"log"
 	"net/http"
-	"test_webapp/pkg/config"
-	"test_webapp/pkg/routes"
+	"sample_webapp/pkg/config"
+	"sample_webapp/pkg/routes"
 )
 
 func NewServer(port string, app *config.AppConfig) *http.Server {
+	log.Printf("Starting server on port %s...\n", port)
 	return &http.Server{
 		Addr:    port,
 		Handler: routes.Routes(app),

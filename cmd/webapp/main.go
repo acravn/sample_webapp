@@ -4,10 +4,10 @@ import (
 	"github.com/alexedwards/scs/v2"
 	"log"
 	"net/http"
-	"test_webapp/pkg/config"
-	"test_webapp/pkg/handlers"
-	"test_webapp/pkg/render"
-	"test_webapp/pkg/server"
+	"sample_webapp/pkg/config"
+	"sample_webapp/pkg/handlers"
+	"sample_webapp/pkg/render"
+	"sample_webapp/pkg/server"
 	"time"
 )
 

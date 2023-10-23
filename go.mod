@@ -1,4 +1,4 @@
-module test_webapp
+module sample_webapp
 
 go 1.20
 

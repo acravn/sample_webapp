@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"net/http"
-	"test_webapp/pkg/config"
-	"test_webapp/pkg/models"
-	"test_webapp/pkg/render"
+	"sample_webapp/pkg/config"
+	"sample_webapp/pkg/models"
+	"sample_webapp/pkg/render"
 )
 
 type Repository struct {

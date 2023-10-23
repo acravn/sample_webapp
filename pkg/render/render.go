@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 	"path/filepath"
-	"test_webapp/pkg/config"
-	"test_webapp/pkg/models"
+	"sample_webapp/pkg/config"
+	"sample_webapp/pkg/models"
 )
 
 var functions = template.FuncMap{}
