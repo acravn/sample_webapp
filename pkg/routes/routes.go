@@ -14,6 +14,6 @@ func Routes(app *config.AppConfig) http.Handler {
 	mux.Use(middleware.Recoverer)
 
 	mux.Get("/", handlers.Repo.Home)
-
+	mux.Post("/clicked", handlers.Repo.Clicked)
 	return mux
 }

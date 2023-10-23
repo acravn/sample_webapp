@@ -8,5 +8,14 @@
                 <p>This is some text</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <h2>Testing out some htmx</h2>
+                <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+                <button hx-post="/clicked" hx-swap="outerHTML">
+                    Click Me
+                </button>
+            </div>
+        </div>
     </div>
 {{end}}
